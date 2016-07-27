@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Rajdhani);
+
+body{
+	
+	font-family: 'Rajdhani', sans-serif;
+}
+
+h2{
+	border-bottom: 1px solid #ddd;
+}
+
+div{
+
+	margin: 0 0 5px;
+}
+
+footer{
+	width: 100%;
+	height: 300px;
+	bottom: 0;
+	position: fixed;
+}
+
+#content{
+
+	margin: 30px;
+}
+
+#myworks{
+	margin-top: 40px;
+}
+
+#myworks img{
+	margin-bottom: 25px;
+	border-radius: 10px;
+	padding: 3px;
+	border: 1px solid black;
+	
+	width: 95%;
+	height: 85%;
+}
+
+#myworks div h3{
+	font-style: italic;
+}
+
+#myworks .slicker{
+	margin: 10px;
+	width: 90%;
+	height: 90%;
+}
+
+#content h2 span{
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.building-bg-cont {
+	background-image: url(../images/buildings.png);
+	background-repeat: repeat-x;	
+	z-index: -1;
+	opacity: 0.4;
+}
+
+	.building-bg-img{
+	user-drag: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+}
+
+.slick-dots{
+	top: 40px !important;
+}
+
+.mobileproj{
+	width: 230px !important;
+	height: 400px !important;
+	display: inline-block !important;
+}
