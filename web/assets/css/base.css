@@ -26,6 +26,15 @@ footer{
 	margin: 30px;
 }
 
+#mylinkedin a{
+	color: green;
+	text-decoration:none;
+	font-weight: bold;
+}
+#mylinkedin a:hover{
+	text-decoration: underline;
+}
+
 #myworks{
 	margin-top: 40px;
 }
